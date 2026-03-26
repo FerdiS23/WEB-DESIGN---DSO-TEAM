@@ -1,73 +1,39 @@
-# React + TypeScript + Vite
+# KNOWLEDGE-GRID: Innovation Interface
+> **Sistem Gamifikasi Edukasi & Kalibrasi Wawasan Multidisiplin**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🏛️ Institusi
+Politeknik Negeri Ujung Pandang
 
-Currently, two official plugins are available:
+## 👥 Anggota Tim (DSO-TEAM)
+- Ketua : Ferdi Seswanto
+- Anggota 1: Paris Septio Riandi Khang
+- Anggota 2: Arcadi Banturino
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📝 Deskripsi Karya
 
-## React Compiler
+**KNOWLEDGE-GRID: Innovation Interface** adalah platform evaluasi pendidikan berbasis web yang mengintegrasikan estetika *High-Tech Terminal* dengan sistem kognitif multidisiplin. Karya ini dirancang sebagai solusi atas tantangan digital di mana proses belajar seringkali terasa statis dan terfragmentasi.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. Filosofi & Latar Belakang
+Di era informasi yang masif, tantangan utama bukanlah akses terhadap data, melainkan bagaimana menghubungkan (grid) berbagai cabang ilmu untuk melahirkan inovasi. **KNOWLEDGE-GRID** hadir dengan narasi "Terminal Kalibrasi", di mana pengguna bertindak sebagai operator sistem yang harus memvalidasi 20 sektor pengetahuan dasar—mulai dari Logika Biner dan Fisika Mekanika hingga Geopolitik Global. Interface ini dibangun berdasarkan filosofi bahwa inovasi yang berkelanjutan hanya bisa lahir dari fondasi ilmu yang kokoh dan terintegrasi.
 
-## Expanding the ESLint configuration
+### 2. Inovasi & Fitur Utama
+Platform ini memanfaatkan *stack* modern **React + TypeScript + Vite** untuk menciptakan performa yang responsif dengan fitur unggulan:
+* **Neural-Grid Roadmap:** Visualisasi peta perjalanan ilmu (Roadmap) yang menggunakan mekanisme penguncian sektor (*Sequential Access Control*), memastikan pengguna melewati proses validasi secara terstruktur.
+* **Randomized Knowledge Pool:** Implementasi algoritma pengacakan soal untuk memastikan integritas sesi dan meminimalisir pengulangan tantangan yang sama.
+* **Immersive Command Interface:** Penggunaan efek *Mouse Parallax*, *Glassmorphism*, dan *Ambient Glow* yang menciptakan suasana laboratorium digital masa depan.
+* **Adaptive System Environment:** Dukungan penuh terhadap *Dark/Light Mode* melalui manipulasi atribut DOM dinamis untuk kenyamanan penggunaan jangka panjang.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 3. Arsitektur Teknis
+Sebagai mahasiswa Teknik Komputer dan Jaringan, proyek ini dibangun dengan standar kode yang bersih:
+- **Type-Safety:** Menggunakan *Interfaces* TypeScript untuk mendefinisikan skema pertanyaan dan misi secara ketat.
+- **State Management:** Pemanfaatan *React Hooks* (`useState`, `useEffect`) untuk sinkronisasi progres antar modul secara *real-time*.
+- **Local Persistence:** Integrasi *Local Storage* untuk menyimpan sesi aktif dan status "Unlock" misi secara mandiri di sisi klien.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 🚀 Cara Menjalankan Proyek
+1. Clone repository ini: `git clone https://github.com/Ferdis23/WEB-DESIGN---DSO-TEAM.git`
+2. Masuk ke folder proyek: `cd lomba-web`
+3. Install dependensi: `npm install`
+4. Jalankan aplikasi: `npm run dev`
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🔗 Link Website
+https://ferdis23.github.io/WEB-DESIGN---DSO-TEAM/
